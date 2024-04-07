@@ -1,0 +1,32 @@
+.footer{
+    height: 50%;
+    width:100vw;
+    background-color: rgb(0, 0, 0);
+    border-top:2px solid rgba(255, 255, 255, .2);
+}
+.footer_logo{
+    margin-top: 40px;
+    margin-left: -1200px;
+}
+.footer_div{
+    
+    margin-left: 90px;
+    margin-top: -30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer_grid{
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+}
+.Footer_features{
+    margin:50px;
+    color:rgb(255, 255, 255)
+}
+.Footer_features:hover{
+    cursor: pointer;
+    color:rgb(240, 247, 21);
+}
+.whatsapp,.twitter,.instagram{
+    padding:20px;
+}

@@ -1,0 +1,31 @@
+.aboutfooter{
+    background-color: black;
+    height:600px;
+    width:100vw;
+}
+.aboutfooter_logo{
+    margin-top: 40px;
+    margin-left: -1200px;
+}
+.aboutfooter_div{
+    
+    margin-left: 90px;
+    margin-top: -30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.aboutfooter_grid{
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+}
+.aboutFooter_features{
+    margin:50px;
+    color:rgb(255, 255, 255)
+}
+.aboutFooter_features:hover{
+    cursor: pointer;
+    color:rgb(240, 247, 21);
+}
+.whatsapp,.twitter,.instagram{
+    padding:20px;
+}
